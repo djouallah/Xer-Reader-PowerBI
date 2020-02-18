@@ -1,1 +1,0 @@
-"C:\XER" meta [IsParameterQuery=true, List={"C:\Users\mimoune.djouallah\Downloads", "C:\Users\mimoune.djouallah\Desktop\Experiments\Xer_Reader_PQ", "C:\XER", "C:\Users\mimoune.djouallah\Desktop\Personal\Blog\Xer Reader"}, DefaultValue="C:\XER", Type="Text", IsParameterQueryRequired=true]
