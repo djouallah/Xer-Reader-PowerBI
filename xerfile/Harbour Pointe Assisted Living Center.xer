@@ -2,10 +2,10 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %T	CURRTYPE
 %F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
 %R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
-%R	13	2	�	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
-%R	14	2	�	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
-%R	15	2	�	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
-%R	16	2	�	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
 %R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
 %R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
 %R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
@@ -129,9 +129,9 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %R	764	15	240001	FTTrade	Trades	
 %T	ROLES
 %F	role_id	parent_role_id	seq_num	role_name	role_short_name	pobs_id	def_cost_qty_link_flag	cost_qty_type	role_descr	last_checksum
-%R	1165		2	E&C Roles	E&C		Y	QT_Hour	﻿	
-%R	1174	1165	5	Management	Manage		Y	QT_Hour	﻿	
-%R	1567	1165	0	Trades	Trades		Y	QT_Hour	﻿	
+%R	1165		2	E&C Roles	E&C		Y	QT_Hour	ï»¿	
+%R	1174	1165	5	Management	Manage		Y	QT_Hour	ï»¿	
+%R	1567	1165	0	Trades	Trades		Y	QT_Hour	ï»¿	
 %T	PROJECT
 %F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
 %R	4408	1	Y	Y	Y	N	Y	Y	N	Y	.	CP_Drtn	EC00610					5829		1000	10	10	0	100		0	100.0000	2011-05-01 00:00	2010-09-01 00:00		2014-09-24 10:40	2010-02-09 23:10	2010-10-06 14:36		DT_FixedDrtn	EC	lhKMMSQxmUSNgJzPbpe2qg	QT_Hour	admin1			COST_PER_QTY	N	Y	TT_Task	N	CT_TotFloat	Y	N	Y	Y	N	N	SL_Taskrsrc	202			2010-03-31 07:40		7	Y						2010-10-06 14:36	
@@ -149,8 +149,8 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %R	6565	N	Carpenters Shared 5x8		178	2000-05-23 16:14	CA_Rsrc	8	40	172	2000	N	(0||CalendarData()((0||DaysOfWeek()((0||1()())(0||2()((0||0(f|16:00|s|08:00)())))(0||3()((0||0(f|16:00|s|08:00)())))(0||4()((0||0(f|16:00|s|08:00)())))(0||5()((0||0(f|16:00|s|08:00)())))(0||6()((0||0(f|16:00|s|08:00)())))(0||7()())))(0||Exceptions()((0||0(d|41519)())(0||1(d|41155)())(0||2(d|40364)())(0||3(d|40910)())(0||4(d|41633)())(0||5(d|41094)())(0||6(d|40427)())(0||7(d|40536)())(0||8(d|41235)())(0||9(d|40179)())(0||10(d|40903)())(0||11(d|40543)())(0||12(d|40791)())(0||13(d|41421)())(0||14(d|40728)())(0||15(d|41275)())(0||16(d|41606)())(0||17(d|40329)())(0||18(d|41459)())(0||19(d|40871)())(0||20(d|40507)())(0||21(d|41057)())(0||22(d|40693)())(0||23(d|41268)())))))
 %T	DOCUMENT
 %F	doc_id	doc_seq_num	deliv_flag	doc_name	parent_doc_id	proj_id	doc_status_id	doc_catg_id	doc_date	version_name	guid	tmpl_guid	doc_short_name	author_name	private_loc	public_loc	doc_mgmt_type	cr_external_doc_key	doc_content
-%R	20408	10	N	MasterSpec		4408			2007-08-15 00:00	1	I0HnlTL5Qv6k5CUEuxnCgw			exp		C:\`Presales\Documents\MasterSpec.pdf	DM_Local		﻿
-%R	20409	20	N	Risk Impact_051305		4408			2007-08-15 00:00	1	fEbxe9kbRTa00QrC7sxJPQ			exp		C:\`Presales\Documents\Risk Impact_051305.gif	DM_Local		﻿
+%R	20408	10	N	MasterSpec		4408			2007-08-15 00:00	1	I0HnlTL5Qv6k5CUEuxnCgw			exp		C:\`Presales\Documents\MasterSpec.pdf	DM_Local		ï»¿
+%R	20409	20	N	Risk Impact_051305		4408			2007-08-15 00:00	1	fEbxe9kbRTa00QrC7sxJPQ			exp		C:\`Presales\Documents\Risk Impact_051305.gif	DM_Local		ï»¿
 %T	PROJPCAT
 %F	proj_id	proj_catg_type_id	proj_catg_id
 %R	4408	11	22
@@ -193,35 +193,35 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %R	25322	4408	636	220102	1	N	Y	WS_Open	8	Landscape & Irrigation		25306	0	0	0.0000	0.0000			0			EC_Cmp_pct	EE_PF_cpi	rdgB/5E0Ryi1pnBGhjDcfA	qHBq8dNTpU6lpbjiSwOwlx	
 %T	RSRC
 %F	rsrc_id	parent_rsrc_id	clndr_id	role_id	shift_id	user_id	pobs_id	guid	rsrc_seq_num	email_addr	employee_code	office_phone	other_phone	rsrc_name	rsrc_short_name	rsrc_title_name	def_qty_per_hr	cost_qty_type	ot_factor	active_flag	auto_compute_act_flag	def_cost_qty_link_flag	ot_flag	curr_id	unit_id	rsrc_type	location_id	rsrc_notes	load_tasks_flag	level_flag	last_checksum
-%R	6571		5829					JVyoBhYevkmiVZ63C0O7Mw	1					E&C Resources	E&C Resources		1	QT_Hour		Y	N	Y	N	1		RT_Labor		﻿			
-%R	6575	6571	5829					1Vng4Iv8OE2BXYX8dCqumA	710					Subcontractor	Subcontractors		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6576	6571	5829					EZqFz32Q9kOZBQZWgE1T7w	204					Trades	Trades		1	QT_Hour		Y	N	Y	N	1		RT_Labor		﻿			
-%R	6577	6571	5829					JjZ44zaT20+GGxIGCAWcqw	709					Management	Management		1	QT_Hour		Y	N	Y	N	1		RT_Labor		﻿			
-%R	6579	6571	5829					310cEC+yG0Ce61KRV2idaw	708					Engineering Department	Engineering		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6585	6576	5829	1567				aJ0j7wgG7Ua/bNcO6VTKvg	3					Electrician	Elec		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6587	6576	5829	1567				E9llpAkDaUWJczuLxWmwKw	201					Floor and Carpet Layer	Floor		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6590	6576	5829	1567				sBK+qLlfWk+AAZ7Ge+WHhg	601					Plumber	Plumb		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6591	6576	6565	1567				/aPkMBpmE0mQgpf0XtkfQg	901					Finish Carpenter	FCarp		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6592	6576	6565	1567				44z9G3xOHUqRBFZaLsOFcw	801					Rough Carpenter	RCarp		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6593	6576	6565	1567				kOWaf71byU+lNe+frpSq1w	401					Laborer-Construction	GenLabor		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6604	6577	5829	1174				w+aDWUYP9kWY0REPdAFsWg	300					Project Managers	PMs		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
-%R	6650	6579	5829	1567				i2f+S1qCckyd89w8IAWKyA	10					HVAC	HVAC			QT_Hour		Y	Y	Y	Y	1		RT_Labor		﻿			
-%R	6683	6575	5829					PzyePW1dGkCn4Tl3s5kdtQ	1100					Millwork Subcontractor	Millwork Carpentry		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6684	6575	5829					zUFybXWgxkahlshzYUxsKA	1200					Thermal Protection Subcontractor	Thermal Protection		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
+%R	6571		5829					JVyoBhYevkmiVZ63C0O7Mw	1					E&C Resources	E&C Resources		1	QT_Hour		Y	N	Y	N	1		RT_Labor		ï»¿			
+%R	6575	6571	5829					1Vng4Iv8OE2BXYX8dCqumA	710					Subcontractor	Subcontractors		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6576	6571	5829					EZqFz32Q9kOZBQZWgE1T7w	204					Trades	Trades		1	QT_Hour		Y	N	Y	N	1		RT_Labor		ï»¿			
+%R	6577	6571	5829					JjZ44zaT20+GGxIGCAWcqw	709					Management	Management		1	QT_Hour		Y	N	Y	N	1		RT_Labor		ï»¿			
+%R	6579	6571	5829					310cEC+yG0Ce61KRV2idaw	708					Engineering Department	Engineering		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6585	6576	5829	1567				aJ0j7wgG7Ua/bNcO6VTKvg	3					Electrician	Elec		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6587	6576	5829	1567				E9llpAkDaUWJczuLxWmwKw	201					Floor and Carpet Layer	Floor		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6590	6576	5829	1567				sBK+qLlfWk+AAZ7Ge+WHhg	601					Plumber	Plumb		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6591	6576	6565	1567				/aPkMBpmE0mQgpf0XtkfQg	901					Finish Carpenter	FCarp		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6592	6576	6565	1567				44z9G3xOHUqRBFZaLsOFcw	801					Rough Carpenter	RCarp		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6593	6576	6565	1567				kOWaf71byU+lNe+frpSq1w	401					Laborer-Construction	GenLabor		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6604	6577	5829	1174				w+aDWUYP9kWY0REPdAFsWg	300					Project Managers	PMs		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
+%R	6650	6579	5829	1567				i2f+S1qCckyd89w8IAWKyA	10					HVAC	HVAC			QT_Hour		Y	Y	Y	Y	1		RT_Labor		ï»¿			
+%R	6683	6575	5829					PzyePW1dGkCn4Tl3s5kdtQ	1100					Millwork Subcontractor	Millwork Carpentry		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6684	6575	5829					zUFybXWgxkahlshzYUxsKA	1200					Thermal Protection Subcontractor	Thermal Protection		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
 %R	6685	6575	5829					JouDIPh/hkGuSyDRol7sbg	1600					Finishes & Fit-out Subcontractor	Finishes		1	QT_Hour		Y	Y	N	N	1		RT_Labor		<HTML><BODY></BODY></HTML>			
-%R	6686	6575	5829					q7jFaHa920ePsnrqbDtscA	501					Concrete Foundation Subcontractor	Concrete-Sub		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6687	6575	5829					ya09acZMHUCM3y446z7cfA	800					Specialty Metal Fabricator Subcontractor	Specialty Metals		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6688	6575	5829					nkCpZhL2vk2EYm/Z5YxtdA	2000					Pool Installation Subcontractor	Pools		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6689	6575	5829					5uXF1exAvk2pjXAJBEyi0Q	2100					Conveying Subcontractor	Conveying-Sub		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6690	6575	5829					y/TRiC7Fb0+X3g4259XJzg	2200					Fire Suppression Subcontractor	Fire Suppression		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6691	6575	5829					4uR19MCNUEeR8/ejtRnWkg	500					Landscaping Subcontractor	Landscaping		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6692	6575	5829					WCRjW3jMjkmSu1XbNq8PkA	1901					FF&E Specialties	Specialties		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
+%R	6686	6575	5829					q7jFaHa920ePsnrqbDtscA	501					Concrete Foundation Subcontractor	Concrete-Sub		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6687	6575	5829					ya09acZMHUCM3y446z7cfA	800					Specialty Metal Fabricator Subcontractor	Specialty Metals		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6688	6575	5829					nkCpZhL2vk2EYm/Z5YxtdA	2000					Pool Installation Subcontractor	Pools		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6689	6575	5829					5uXF1exAvk2pjXAJBEyi0Q	2100					Conveying Subcontractor	Conveying-Sub		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6690	6575	5829					y/TRiC7Fb0+X3g4259XJzg	2200					Fire Suppression Subcontractor	Fire Suppression		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6691	6575	5829					4uR19MCNUEeR8/ejtRnWkg	500					Landscaping Subcontractor	Landscaping		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6692	6575	5829					WCRjW3jMjkmSu1XbNq8PkA	1901					FF&E Specialties	Specialties		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
 %R	6693	6575	5829					41pfwfaL9Eqq+y2mDnQGqQ	1500					Drywall Subcontractor	Drywall		1	QT_Hour		Y	Y	N	N	1		RT_Labor		<HTML><BODY></BODY></HTML>			
-%R	6694	6575	5829					zncFv/ZFcEuFD8fSq9+hVQ	1300					Roofing Subcontractor	Roofing		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6695	6575	5829					jy+KakFJ00qeSMMs5qm+pA	1400					Glass & Glazing Subcontractor	Glass		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6696	6575	5829					/OsYe4TWO0+4op5XRdw9Gg	3000					Paving & Roadways Subcontractor	Paving		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6697	6575	5829					d1exmO/1NEqBquqm9TUOuQ	3100					Utilities Subcontractor	Utilities		1	QT_Hour		Y	Y	N	N	1		RT_Labor		﻿			
-%R	6878	6576	5829	1567				5HRE0XdnE0qbpD214bvZRA	3					Painter	Paint		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		﻿			
+%R	6694	6575	5829					zncFv/ZFcEuFD8fSq9+hVQ	1300					Roofing Subcontractor	Roofing		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6695	6575	5829					jy+KakFJ00qeSMMs5qm+pA	1400					Glass & Glazing Subcontractor	Glass		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6696	6575	5829					/OsYe4TWO0+4op5XRdw9Gg	3000					Paving & Roadways Subcontractor	Paving		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6697	6575	5829					d1exmO/1NEqBquqm9TUOuQ	3100					Utilities Subcontractor	Utilities		1	QT_Hour		Y	Y	N	N	1		RT_Labor		ï»¿			
+%R	6878	6576	5829	1567				5HRE0XdnE0qbpD214bvZRA	3					Painter	Paint		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿			
 %T	ACTVTYPE
 %F	actv_code_type_id	actv_short_len	seq_num	actv_code_type	proj_id	wbs_id	actv_code_type_scope
 %R	143	20	74250	Key Milestones			AS_Global
@@ -585,9 +585,9 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %F	issue_id	obs_id	proj_id	rsrc_id	task_id	thresh_id	thresh_parm_id	track_view_id	wbs_id	add_by_name	issue_name	resolv_date	add_date	priority_type	status_code	base_proj_id	hi_parm_value	issue_value	lo_parm_value	workspace_id	issue_notes
 %R	1311	540	4408	6693	98145				25309	ckbell	Unit Finishes Experiencing Productivity Delays	2011-05-06 00:00	2011-04-20 11:43	PT_High	IS_Open		0	0	0		<DIV>Delay with completing&nbsp;units due to lack of finishing materials (spackle, tape). Scheduled to arrive on site in 1 week.</DIV>
 %R	1312	540	4408	6685	98145				25309	Bruce	Forecast Overrun	2011-04-27 00:00	2011-03-10 15:35	PT_Top	IS_Open		0	0	0		<P><FONT face=Arial size=5>Jeff:</FONT></P><P><FONT face=Arial size=5>I noticed that the forecast for Autumn Breezes shows a $512,000 cost overrun. I dug into it a little bit and found the problem area is in <STRONG>Building 1 Interior Finishes</STRONG>. I remember you telling me that we were having some problems with that subcontractor's productivity. Is this still the case? We are only 6 months into this project and I don't want this problem to grow. Can you fill me in on what is&nbsp;happening and you and I can work together to resolve it.</FONT></P><P><FONT face=Arial size=5></FONT>&nbsp;</P><P><FONT face=Arial size=5>Thanks for your help and hard work!</FONT></P><P><FONT face=Arial size=5>V.P. of Construction</FONT></P>
-%R	1313	540	4408			871	16		25312	Monitor	Finish Date Variance (days) is -6d on WBS: Harbour Pointe.1.2		2007-07-01 00:00	PT_Normal	IS_Open			-48	-40		﻿
+%R	1313	540	4408			871	16		25312	Monitor	Finish Date Variance (days) is -6d on WBS: Harbour Pointe.1.2		2007-07-01 00:00	PT_Normal	IS_Open			-48	-40		ï»¿
 %R	1316	540	4408	6685					25318	admin	Building 2 Subject To Delay		2007-04-09 15:10	PT_High	IS_Open		0	0	0		<HTML><BODY bgColor=#ffffff><DIV><FONT size=4>This is an issue connected with productivity delays on Unit Finishes in Building 1. Building 2 first floor finishes are to be completed by the same subcontractor that is experience delays now. Recommend official correspondence to Finshes Subcontractor and consider augmenting crews in Building 2 to pick-up delay.</FONT></DIV></BODY></HTML>
-%R	1317	540	4408			871	16		25318	Monitor	Finish Date Variance (days) is -21d on WBS: Harbour Pointe.2.4		2007-07-01 00:00	PT_Normal	IS_Open			-168	-40		﻿
+%R	1317	540	4408			871	16		25318	Monitor	Finish Date Variance (days) is -21d on WBS: Harbour Pointe.2.4		2007-07-01 00:00	PT_Normal	IS_Open			-168	-40		ï»¿
 %T	TASKFDBK
 %F	task_id	proj_id	task_fdbk
 %R	98120	4408	
@@ -795,143 +795,143 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %R	209	98249	4408	90	3600.0000	0	0.0000	0.0000	0.0000	3763.2000	94.08	3840.0000	96
 %T	TASKMEMO
 %F	memo_id	task_id	memo_type_id	proj_id	task_memo
-%R	25946	98145	23	4408	﻿
+%R	25946	98145	23	4408	ï»¿
 %R	25947	98145	680	4408	<HTML><BODY bgColor=#ffffff><IMG alt="""" hspace=0 src=""file:///C:\`Presales\Documents\Plant Photos\GP container_mills.jpg"" align=baseline border=0></BODY></HTML>
 %R	25949	98174	23	4408	&nbsp;<DIV>jdfpje&nbsp; dkdl;sm </DIV>
-%R	25950	98174	32	4408	﻿
+%R	25950	98174	32	4408	ï»¿
 %T	TASKNOTE
 %F	task_id	proj_id	task_notes
-%R	98120	4408	﻿
-%R	98122	4408	﻿
-%R	98123	4408	﻿
-%R	98124	4408	﻿
-%R	98125	4408	﻿
-%R	98126	4408	﻿
-%R	98127	4408	﻿
-%R	98128	4408	﻿
-%R	98129	4408	﻿
-%R	98130	4408	﻿
-%R	98131	4408	﻿
-%R	98132	4408	﻿
-%R	98133	4408	﻿
-%R	98134	4408	﻿
-%R	98135	4408	﻿
-%R	98136	4408	﻿
-%R	98137	4408	﻿
-%R	98138	4408	﻿
-%R	98139	4408	﻿
-%R	98140	4408	﻿
-%R	98141	4408	﻿
-%R	98142	4408	﻿
-%R	98143	4408	﻿
-%R	98144	4408	﻿
-%R	98145	4408	﻿
-%R	98146	4408	﻿
-%R	98147	4408	﻿
-%R	98148	4408	﻿
-%R	98149	4408	﻿
-%R	98150	4408	﻿
-%R	98151	4408	﻿
-%R	98152	4408	﻿
-%R	98153	4408	﻿
-%R	98154	4408	﻿
-%R	98155	4408	﻿
-%R	98156	4408	﻿
-%R	98157	4408	﻿
-%R	98158	4408	﻿
-%R	98159	4408	﻿
-%R	98160	4408	﻿
-%R	98161	4408	﻿
-%R	98162	4408	﻿
-%R	98163	4408	﻿
-%R	98164	4408	﻿
-%R	98165	4408	﻿
-%R	98166	4408	﻿
-%R	98167	4408	﻿
-%R	98168	4408	﻿
-%R	98169	4408	﻿
-%R	98170	4408	﻿
-%R	98171	4408	﻿
-%R	98172	4408	﻿
-%R	98173	4408	﻿
-%R	98174	4408	﻿
-%R	98175	4408	﻿
-%R	98176	4408	﻿
-%R	98177	4408	﻿
-%R	98178	4408	﻿
-%R	98179	4408	﻿
-%R	98180	4408	﻿
-%R	98181	4408	﻿
-%R	98182	4408	﻿
-%R	98183	4408	﻿
-%R	98184	4408	﻿
-%R	98185	4408	﻿
-%R	98186	4408	﻿
-%R	98187	4408	﻿
-%R	98188	4408	﻿
-%R	98189	4408	﻿
-%R	98190	4408	﻿
-%R	98191	4408	﻿
-%R	98192	4408	﻿
-%R	98193	4408	﻿
-%R	98194	4408	﻿
-%R	98195	4408	﻿
-%R	98196	4408	﻿
-%R	98197	4408	﻿
-%R	98198	4408	﻿
-%R	98199	4408	﻿
-%R	98200	4408	﻿
-%R	98201	4408	﻿
-%R	98202	4408	﻿
-%R	98203	4408	﻿
-%R	98204	4408	﻿
-%R	98205	4408	﻿
-%R	98206	4408	﻿
-%R	98207	4408	﻿
-%R	98208	4408	﻿
-%R	98209	4408	﻿
-%R	98210	4408	﻿
-%R	98211	4408	﻿
-%R	98212	4408	﻿
-%R	98213	4408	﻿
-%R	98214	4408	﻿
-%R	98215	4408	﻿
-%R	98216	4408	﻿
-%R	98217	4408	﻿
-%R	98218	4408	﻿
-%R	98219	4408	﻿
-%R	98220	4408	﻿
-%R	98221	4408	﻿
-%R	98222	4408	﻿
-%R	98223	4408	﻿
-%R	98224	4408	﻿
-%R	98225	4408	﻿
-%R	98226	4408	﻿
-%R	98227	4408	﻿
-%R	98228	4408	﻿
-%R	98229	4408	﻿
-%R	98230	4408	﻿
-%R	98231	4408	﻿
-%R	98232	4408	﻿
-%R	98233	4408	﻿
-%R	98234	4408	﻿
-%R	98235	4408	﻿
-%R	98236	4408	﻿
-%R	98237	4408	﻿
-%R	98238	4408	﻿
-%R	98239	4408	﻿
-%R	98240	4408	﻿
-%R	98241	4408	﻿
-%R	98242	4408	﻿
-%R	98243	4408	﻿
-%R	98244	4408	﻿
-%R	98245	4408	﻿
-%R	98246	4408	﻿
-%R	98247	4408	﻿
-%R	98248	4408	﻿
-%R	98249	4408	﻿
-%R	98250	4408	﻿
-%R	98251	4408	﻿
+%R	98120	4408	ï»¿
+%R	98122	4408	ï»¿
+%R	98123	4408	ï»¿
+%R	98124	4408	ï»¿
+%R	98125	4408	ï»¿
+%R	98126	4408	ï»¿
+%R	98127	4408	ï»¿
+%R	98128	4408	ï»¿
+%R	98129	4408	ï»¿
+%R	98130	4408	ï»¿
+%R	98131	4408	ï»¿
+%R	98132	4408	ï»¿
+%R	98133	4408	ï»¿
+%R	98134	4408	ï»¿
+%R	98135	4408	ï»¿
+%R	98136	4408	ï»¿
+%R	98137	4408	ï»¿
+%R	98138	4408	ï»¿
+%R	98139	4408	ï»¿
+%R	98140	4408	ï»¿
+%R	98141	4408	ï»¿
+%R	98142	4408	ï»¿
+%R	98143	4408	ï»¿
+%R	98144	4408	ï»¿
+%R	98145	4408	ï»¿
+%R	98146	4408	ï»¿
+%R	98147	4408	ï»¿
+%R	98148	4408	ï»¿
+%R	98149	4408	ï»¿
+%R	98150	4408	ï»¿
+%R	98151	4408	ï»¿
+%R	98152	4408	ï»¿
+%R	98153	4408	ï»¿
+%R	98154	4408	ï»¿
+%R	98155	4408	ï»¿
+%R	98156	4408	ï»¿
+%R	98157	4408	ï»¿
+%R	98158	4408	ï»¿
+%R	98159	4408	ï»¿
+%R	98160	4408	ï»¿
+%R	98161	4408	ï»¿
+%R	98162	4408	ï»¿
+%R	98163	4408	ï»¿
+%R	98164	4408	ï»¿
+%R	98165	4408	ï»¿
+%R	98166	4408	ï»¿
+%R	98167	4408	ï»¿
+%R	98168	4408	ï»¿
+%R	98169	4408	ï»¿
+%R	98170	4408	ï»¿
+%R	98171	4408	ï»¿
+%R	98172	4408	ï»¿
+%R	98173	4408	ï»¿
+%R	98174	4408	ï»¿
+%R	98175	4408	ï»¿
+%R	98176	4408	ï»¿
+%R	98177	4408	ï»¿
+%R	98178	4408	ï»¿
+%R	98179	4408	ï»¿
+%R	98180	4408	ï»¿
+%R	98181	4408	ï»¿
+%R	98182	4408	ï»¿
+%R	98183	4408	ï»¿
+%R	98184	4408	ï»¿
+%R	98185	4408	ï»¿
+%R	98186	4408	ï»¿
+%R	98187	4408	ï»¿
+%R	98188	4408	ï»¿
+%R	98189	4408	ï»¿
+%R	98190	4408	ï»¿
+%R	98191	4408	ï»¿
+%R	98192	4408	ï»¿
+%R	98193	4408	ï»¿
+%R	98194	4408	ï»¿
+%R	98195	4408	ï»¿
+%R	98196	4408	ï»¿
+%R	98197	4408	ï»¿
+%R	98198	4408	ï»¿
+%R	98199	4408	ï»¿
+%R	98200	4408	ï»¿
+%R	98201	4408	ï»¿
+%R	98202	4408	ï»¿
+%R	98203	4408	ï»¿
+%R	98204	4408	ï»¿
+%R	98205	4408	ï»¿
+%R	98206	4408	ï»¿
+%R	98207	4408	ï»¿
+%R	98208	4408	ï»¿
+%R	98209	4408	ï»¿
+%R	98210	4408	ï»¿
+%R	98211	4408	ï»¿
+%R	98212	4408	ï»¿
+%R	98213	4408	ï»¿
+%R	98214	4408	ï»¿
+%R	98215	4408	ï»¿
+%R	98216	4408	ï»¿
+%R	98217	4408	ï»¿
+%R	98218	4408	ï»¿
+%R	98219	4408	ï»¿
+%R	98220	4408	ï»¿
+%R	98221	4408	ï»¿
+%R	98222	4408	ï»¿
+%R	98223	4408	ï»¿
+%R	98224	4408	ï»¿
+%R	98225	4408	ï»¿
+%R	98226	4408	ï»¿
+%R	98227	4408	ï»¿
+%R	98228	4408	ï»¿
+%R	98229	4408	ï»¿
+%R	98230	4408	ï»¿
+%R	98231	4408	ï»¿
+%R	98232	4408	ï»¿
+%R	98233	4408	ï»¿
+%R	98234	4408	ï»¿
+%R	98235	4408	ï»¿
+%R	98236	4408	ï»¿
+%R	98237	4408	ï»¿
+%R	98238	4408	ï»¿
+%R	98239	4408	ï»¿
+%R	98240	4408	ï»¿
+%R	98241	4408	ï»¿
+%R	98242	4408	ï»¿
+%R	98243	4408	ï»¿
+%R	98244	4408	ï»¿
+%R	98245	4408	ï»¿
+%R	98246	4408	ï»¿
+%R	98247	4408	ï»¿
+%R	98248	4408	ï»¿
+%R	98249	4408	ï»¿
+%R	98250	4408	ï»¿
+%R	98251	4408	ï»¿
 %T	TASKPRED
 %F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
 %R	35787	98248	98249	4408	4408	PR_FS	0		2011-05-01 00:00	2014-07-02 10:40
@@ -1154,48 +1154,48 @@ ERMHDR	17.12	2018-06-23	Project	admin	mim	dbxDatabaseNoName	Project Management	U
 %R	30486	98147	4408	103	Electrical Rough In	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
 %R	30487	98147	4408	104	Interior Rough and Finishes	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
 %R	30488	98147	4408	105	HVAC Duct Rough In	N	1	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
-%R	30489	98147	4408	106	HVAC Rough Inspection	N	10	0	﻿
-%R	30490	98147	4408	107	Frame Walls & Soffits & Prehang	N	1	0	﻿
+%R	30489	98147	4408	106	HVAC Rough Inspection	N	10	0	ï»¿
+%R	30490	98147	4408	107	Frame Walls & Soffits & Prehang	N	1	0	ï»¿
 %R	30491	98147	4408	108	Install Plumbing In Walls	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
 %R	30492	98147	4408	109	Electrical Wiring	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
-%R	30493	98147	4408	110	Plumbing Rough Inspection	N	1	0	﻿
-%R	30494	98147	4408	111	Electrical Rough Inspection	N	10	0	﻿
-%R	30495	98147	4408	112	Framing Inspection	N	10	0	﻿
+%R	30493	98147	4408	110	Plumbing Rough Inspection	N	1	0	ï»¿
+%R	30494	98147	4408	111	Electrical Rough Inspection	N	10	0	ï»¿
+%R	30495	98147	4408	112	Framing Inspection	N	10	0	ï»¿
 %R	30496	98147	4408	113	Install Insulation & Drywall One Side	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
-%R	30497	98147	4408	114	Install Drywall 2nd Side	N	5	0	﻿
-%R	30498	98147	4408	115	Finish Drywall (Bead, Tape, Knockdown Texture)	N	5	0	﻿
-%R	30499	98147	4408	116	Cut Plugs & Switches	N	1	0	﻿
-%R	30500	98147	4408	117	Install Interior Door Frames	N	1	0	﻿
-%R	30501	98147	4408	118	Interior Trim & Millwork	N	1	0	﻿
-%R	30502	98147	4408	119	Paint	N	10	0	﻿
+%R	30497	98147	4408	114	Install Drywall 2nd Side	N	5	0	ï»¿
+%R	30498	98147	4408	115	Finish Drywall (Bead, Tape, Knockdown Texture)	N	5	0	ï»¿
+%R	30499	98147	4408	116	Cut Plugs & Switches	N	1	0	ï»¿
+%R	30500	98147	4408	117	Install Interior Door Frames	N	1	0	ï»¿
+%R	30501	98147	4408	118	Interior Trim & Millwork	N	1	0	ï»¿
+%R	30502	98147	4408	119	Paint	N	10	0	ï»¿
 %R	30503	98147	4408	120	Install Cabinet Carcasss	N	1	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
 %R	30504	98147	4408	121	Tile Kitchen, Foyer & Baths	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
 %R	30505	98147	4408	122	Install Kit Plumbing Fixtures	N	5	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
-%R	30506	98147	4408	123	Install Bath Mirrors & Enclosures	N	1	0	﻿
-%R	30507	98147	4408	124	Install Bath Harware & Accessories	N	1	0	﻿
-%R	30508	98147	4408	125	Finish Kitchen & Bath Plumbing	N	5	0	﻿
-%R	30509	98147	4408	126	Paint 2nd Coat	N	10	0	﻿
+%R	30506	98147	4408	123	Install Bath Mirrors & Enclosures	N	1	0	ï»¿
+%R	30507	98147	4408	124	Install Bath Harware & Accessories	N	1	0	ï»¿
+%R	30508	98147	4408	125	Finish Kitchen & Bath Plumbing	N	5	0	ï»¿
+%R	30509	98147	4408	126	Paint 2nd Coat	N	10	0	ï»¿
 %R	30510	98147	4408	127	Finish Plumbing Inspection	N	1	0	<HTML><BODY></BODY></HTML>
-%R	30511	98147	4408	128	Install HVAC Unit & Startup	N	1	0	﻿
+%R	30511	98147	4408	128	Install HVAC Unit & Startup	N	1	0	ï»¿
 %R	30512	98147	4408	129	Carpet Units	N	10	0	<HTML><BODY bgColor=#ffffff><P>&nbsp;</P></BODY></HTML>
-%R	30513	98147	4408	130	Install Interior Doors	N	1	0	﻿
-%R	30514	98147	4408	131	Install Security Finishes	N	1	0	﻿
-%R	30515	98147	4408	132	Touch Up Drywall	N	1	0	﻿
-%R	30516	98147	4408	133	Install Appliances	N	5	0	﻿
-%R	30517	98147	4408	134	Touch Up Paint	N	5	0	﻿
+%R	30513	98147	4408	130	Install Interior Doors	N	1	0	ï»¿
+%R	30514	98147	4408	131	Install Security Finishes	N	1	0	ï»¿
+%R	30515	98147	4408	132	Touch Up Drywall	N	1	0	ï»¿
+%R	30516	98147	4408	133	Install Appliances	N	5	0	ï»¿
+%R	30517	98147	4408	134	Touch Up Paint	N	5	0	ï»¿
 %R	30518	98147	4408	135	Punchlist	N	10	0	<HTML><BODY></BODY></HTML>
 %R	30699	98174	4408	140010	Masonry	N	3	0	<HTML><BODY></BODY></HTML>
-%R	30700	98174	4408	140020	Colar Beam	N	1	0	﻿
-%R	30701	98174	4408	140030	Roof Trusses	N	1	0	﻿
-%R	30702	98174	4408	140040	Widows & Doors	N	1	0	﻿
-%R	30703	98174	4408	140050	Wall Finishes	N	1	0	﻿
-%R	30704	98174	4408	140060	Roof Membrane & Tiles	N	1	0	﻿
-%R	30705	98174	4408	140070	Plumbing	N	2	0	﻿
-%R	30706	98174	4408	140080	Electrical	N	1	0	﻿
-%R	30707	98174	4408	140090	HVAC	N	2	0	﻿
-%R	30708	98174	4408	140100	Lockup	N	1	0	﻿
-%R	30709	98174	4408	140110	FF&E	N	1	0	﻿
-%R	30710	98174	4408	140120	Tile Flooring	N	2	0	﻿
+%R	30700	98174	4408	140020	Colar Beam	N	1	0	ï»¿
+%R	30701	98174	4408	140030	Roof Trusses	N	1	0	ï»¿
+%R	30702	98174	4408	140040	Widows & Doors	N	1	0	ï»¿
+%R	30703	98174	4408	140050	Wall Finishes	N	1	0	ï»¿
+%R	30704	98174	4408	140060	Roof Membrane & Tiles	N	1	0	ï»¿
+%R	30705	98174	4408	140070	Plumbing	N	2	0	ï»¿
+%R	30706	98174	4408	140080	Electrical	N	1	0	ï»¿
+%R	30707	98174	4408	140090	HVAC	N	2	0	ï»¿
+%R	30708	98174	4408	140100	Lockup	N	1	0	ï»¿
+%R	30709	98174	4408	140110	FF&E	N	1	0	ï»¿
+%R	30710	98174	4408	140120	Tile Flooring	N	2	0	ï»¿
 %T	TASKRISK
 %F	task_id	risk_id	proj_id
 %R	98155	3016	4408
